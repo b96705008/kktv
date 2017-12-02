@@ -116,3 +116,4 @@ kktv-17-11
 metastore_db
 derby.log
 .DS_Store
+tmp
