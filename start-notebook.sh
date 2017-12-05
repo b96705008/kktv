@@ -6,7 +6,7 @@ pyspark \
         --master local[*] \
         --driver-cores 1 \
         --driver-memory 1g \
-        --executor-memory 2G \
+        --executor-memory 4G \
         --conf spark.shuffle.service.enabled=true \
         --conf spark.dynamicAllocation.enabled=true \
         --conf spark.dynamicAllocation.maxExecutors=6 \
